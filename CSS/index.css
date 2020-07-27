@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+    min-height: 300px;
+}
+
+.header{
+    width: 100%;
+    min-height: 120px;
+    background-color: limegreen;
+    position: fixed;
+    top: 0px;
+}
+
+.header .logo{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 30px;
+    vertical-align: top;
+
+}
+
+.header .logo img{
+    height: 40px;
+    width: 80px;
+}
+
+.header .nav{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 100px;
+    text-align: right;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.header .nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+    
+}
+
+.header .nav ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.header .nav ul li a{
+    text-decoration: none;
+}
+
+.header .btn{
+    display: inline-block;
+    vertical-align: top;
+    background-color: mediumblue;
+    margin-top: 40px;
+    margin-left: 120px;
+    width: 12%;
+    height: 33px;
+    text-align: center;
+    margin-top: 35px;
+    padding-top: 6px;
+    border-radius: 3px;
+    transition: all .5s;
+}
+
+.header .btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .btn:hover{
+    background-color: #fff;
+    border: 1px solid mediumblue; 
+ 
+}
+
+.header .btn:hover a{
+    color: #000;   
+}
+
+/* Introduction part */
+
+.intro{
+    background-color: mediumblue;
+    width: 100%;
+    min-height: 500px;
+    padding: 20px;
+    padding-top: 200px;
+    
+}
+
+.intro .textbox{
+    width: 34%;
+    min-height: 300px;
+    margin-top: 50px;
+    padding-left: 20px;
+    margin-right: 76px;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    line-height: 24px;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.intro .imgbox{
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    min-height: 300px;
+    padding-top: 6px;
+    margin-bottom: 47px;
+}
+
+.intro .imgbox img{
+    width: 800px;
+}
+
+.intro .textbox a{
+    display: block;
+    background-color: #fff;
+    width: 60%;
+    text-align: center;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+.intro .textbox a:hover{
+    background-color: mediumblue;
+    color: #fff;
+}
+
+.launch{
+    background-color: #082E72;
+}
+
+.launch .icon{
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    margin: 30px;
+    margin-left: 60px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 60px;
+}
+
+.launch .text{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    min-height: 50px;
+    text-align: left;
+    color: white;
+    margin: 30px 5px;
+    padding: 20px 10px;
+}
+
+.launch .text a{
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    margin-bottom: 19px;
+    color: #fff;
+}
+
+.launch .text p{
+    font-size: 17px;
+}
+
+.launch .btn{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 45px;
+    margin-top: 50px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.launch .btn a{
+    text-decoration: none;
+}
+
+.launch .btn:hover{
+    background-color: mediumblue;
+    color: white;
+}
