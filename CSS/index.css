@@ -211,3 +211,7 @@ body{
     background-color: mediumblue;
     color: white;
 }
+
+.launch .btn:hover a{
+    color: white;
+}
